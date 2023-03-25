@@ -1,0 +1,287 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#total_container {
+    display: flex;
+    align-items: center;
+}
+
+#settings {
+    height: 80vh;
+    width: 15vw;
+    margin-right: 5vw;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settings_container {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#create {
+    height: 10%;
+}
+
+#container {
+    display: inline-block;
+}
+
+#game {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    outline: solid 1px;
+}
+
+#restart {
+    width: 50px;
+    height: 50px;
+    outline: solid 1px;
+}
+
+.happy {
+    background-image: url("static/happy.png");
+}
+
+.normal {
+    background-image: url("static/normal.png");
+}
+
+.sad {
+    background-image: url("static/sad.png");
+}
+
+.tile {
+    height: 30px;
+    width: 30px;
+    outline: solid 1px;
+    background-size: contain;
+}
+
+.hidden {
+    background-color: gray;
+}
+
+.hover {
+    background-color: lightgrey;
+}
+
+.revealed {
+    background-color: white;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.flagged {
+    background-image: url("static/flag.png");
+}
+
+.lose {
+    background-color: red;
+}
+
+.mine {
+    background-image: url("static/mine.png");
+}
+
+.no_mine {
+    background-image: url("static/no_mine.png");
+}
+
+.digits {
+    width: 200px;
+    height: 50px;
+    display: inline-flex;
+    background-color: black;
+}
+
+.digit {
+    width: 50px;
+    height: 50px;
+}
+
+.num_1 {
+    background-image: url("static/one.png");
+}
+
+.num_2 {
+    background-image: url("static/two.png");
+}
+
+.num_3 {
+    background-image: url("static/three.png");
+}
+
+.num_4 {
+    background-image: url("static/four.png");
+}
+
+.num_5 {
+    background-image: url("static/five.png");
+}
+
+.num_6 {
+    background-image: url("static/six.png");
+}
+
+.num_7 {
+    background-image: url("static/seven.png");
+}
+
+.num_8 {
+    background-image: url("static/eight.png");
+}
+
+.dig_0 {
+    background-image: url("static/digit0.png")
+}
+
+.dig_1 {
+    background-image: url("static/digit1.png")
+}
+
+.dig_2 {
+    background-image: url("static/digit2.png")
+}
+
+.dig_3 {
+    background-image: url("static/digit3.png")
+}
+
+.dig_4 {
+    background-image: url("static/digit4.png")
+}
+
+.dig_5 {
+    background-image: url("static/digit5.png")
+}
+
+.dig_6 {
+    background-image: url("static/digit6.png")
+}
+
+.dig_7 {
+    background-image: url("static/digit7.png")
+}
+
+.dig_8 {
+    background-image: url("static/digit8.png")
+}
+
+.dig_9 {
+    background-image: url("static/digit9.png")
+}
+
+.dig_neg {
+    background-image: url("static/digitneg.png");
+}
+
+.divider_5 {
+    height: 5%;
+}
+
+.divider_10 {
+    height: 10%;
+}
+
+ol {
+    width: 15vw;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statusBar {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    font: 39px Arial;
+}
+
+.infoChild {
+    width: 50%;
+    height: 100%;
+}
+
+.progress {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font: 24px Arial;
+}
+
+#middleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#infoBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mines {
+    text-align: left;
+}
+
+#timer {
+    text-align: right;
+}
+
+#restartStatus {
+    display: flex;
+    justify-content: center;
+}
+
+#canvasContainer {
+    position: relative;
+}
+
+#canvasContainer > canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#minesweeper-canvas {
+    z-index: 0;
+}
+
+#minesweeper-hider {
+    z-index: 1;
+}
+
+#minesweeper-grid {
+    z-index: 2;
+}
+
+#restartMessage {
+    margin-right: 30px;
+}

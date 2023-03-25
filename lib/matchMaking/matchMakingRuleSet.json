@@ -1,0 +1,9 @@
+{
+    "ruleLanguageVersion": "1.0",
+    "teams": [{
+        "name": "player",
+        "maxPlayers": 1,
+        "minPlayers": 1,
+        "quantity": 2
+    }]
+}

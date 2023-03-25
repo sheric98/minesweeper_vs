@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/minesweepervs_cdk.ts",
+  "app": "npm run build && npx ts-node --prefer-ts-exts bin/minesweepervs_cdk.ts",
   "watch": {
     "include": [
       "**"
